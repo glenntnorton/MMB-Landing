@@ -2,8 +2,7 @@
 <html>
 <head>
     <title>It's your move! | MyMoveBuddy</title>
-    <meta name="description" content="Moving Can Be Fun! Really, No Fooling! The MyMoveBuddy Care Package comes with great
-    checklists, postcards, moving box labels and other great goodies all customized for you and your family."/>
+    <meta name="description" content="It's your move, right? Make it the best move."/>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/dark-blue.css" />
     <!-- IE scripts and stylesheets -->
@@ -20,19 +19,16 @@
         return false;
     }
 </script>
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-31601861-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31601861-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 </head>
 
 <body class="home">
@@ -42,20 +38,23 @@
                 <h1 id="logo"><a href="index.html">it's your move! | MyMoveBuddy</a></h1>
                 <img src="images/box-small-red.png" width="156" height="128" alt="What's in the Box?" />
                 <span style="font-size: 1.2em; font-weight:bold; padding: 3px;">
-                    <em>Your buddy is here to help!</em>
+                    <small><strong><em>Your buddy is here to help!</em</strong></small>
+                    <!--<em>Your buddy is here to help!</em>-->
                     <a class="button button-arrow" href="#" onclick="openMail();">Sign Up Now<span class="icon"></span></a>
                 </span>
             </div>
         </header>
 
         <div id="column-container" class="aligncenter">
-                <h1>
-                    Moving is stressful enough.<br> 
-                    Why run around and get 10 different things from 10 different places?
-                    <br/><br/>
-                    <i>It's your move, right?</span></i>
-                    <span style="color:#eefd00; font-weight:italic;">Make it the best move.</span>
-                </h1>
+            <h1>
+                <strong>It's your move, right?</strong>
+                <span id="h1mmbyellow">Make it the best move.</span>
+            </h1>
+            <h2>
+                Moving is stressful enough.
+                <br> 
+                Why run around to get 10 different things from 10 different places?
+            </h2>
         </div>
 
         <hr>
@@ -63,58 +62,85 @@
         <div id="main">
             <div class="inner-wrap">
                 <div class="column-container clearfix">
-                    <span style="font-size: 2.4em; color:#eefd00;">
-                        What's In The Box?
+                    <span id="h1mmbyellow">
+                        <em>What's In The Box?</em>
                     </span>
                     <br>
                     <br>
 
                     <div class="column half">
                         <div>
-                            <img src="images/box-large-white-red-bow.png" width="512" height="512" alt="Quality coding" />
+                            <img src="images/box-large-white-red-bow.png" width="480" height="480" alt="Quality coding" />
                         </div>
                     </div>
 
                     <div class="column half">
                         <div style="margin-left: 40px;">
-                                <h3>&#187; Moving Labels</h3>
-                                <h3>&#187; "We've Moved!" Postcards (Avery 8387)</h3>
-                                <h3>&#187; Packing Tape</h3>
-                                <h3>&#187; Pens</h3>
-                                <h3>&#187; Permanent Markers</h3>
-                                <h3>&#187; Notepad</h3>
-                                <h3>&#187; Tape Gun</h3>
-                                <h3>&#187; Bubble Wrap</h3>
-                                <h3>&#187; Stretch Wrap</h3>
-                                <h3>&#187; Scissors</h3>
-                                <h3>&#187; Utility Knife</h3>
-                                <h3>&#187; Utility Screwdriver</h3>
-                                <h3>...and a few secret items!</h3>
+                                <h3 id="h3mmb">&#187; Moving Labels</h3>
+                                <h3 id="h3mmb">&#187; "We've Moved!" Postcards (Avery 8387)</h3>
+                                <h3 id="h3mmb">&#187; Packing Tape</h3>
+                                <h3 id="h3mmb">&#187; Pens</h3>
+                                <h3 id="h3mmb">&#187; Permanent Markers</h3>
+                                <h3 id="h3mmb">&#187; Notepad</h3>
+                                <h3 id="h3mmb">&#187; Tape Gun</h3>
+                                <h3 id="h3mmb">&#187; Bubble Wrap</h3>
+                                <h3 id="h3mmb">&#187; Stretch Wrap</h3>
+                                <h3 id="h3mmb">&#187; Scissors</h3>
+                                <h3 id="h3mmb">&#187; Utility Knife</h3>
+                                <h3 id="h3mmb">&#187; Utility Screwdriver</h3>
+                                <h3 id="h3mmb">...and a few secret items!</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inner-wrap">
+                <div class="column-container clearfix">
+                    <span id="h1mmbyellow">
+                        <em>What's In The App?</em>
+                    </span>
+
+                    <div class="column half">
+                        <div style="margin-left: 40px;">
+                                <h3 id="h3mmb">&#187; Moving Labels</h3>
+                                <h3 id="h3mmb">&#187; "We've Moved!" Postcards (Avery 8387)</h3>
+                                <h3 id="h3mmb">&#187; Packing Tape</h3>
+                                <h3 id="h3mmb">&#187; Pens</h3>
+                                <h3 id="h3mmb">&#187; Permanent Markers</h3>
+                                <h3 id="h3mmb">&#187; Notepad</h3>
+                                <h3 id="h3mmb">&#187; Tape Gun</h3>
+                                <h3 id="h3mmb">&#187; Bubble Wrap</h3>
+                                <h3 id="h3mmb">&#187; Stretch Wrap</h3>
+                                <h3 id="h3mmb">&#187; Scissors</h3>
+                                <h3 id="h3mmb">&#187; Utility Knife</h3>
+                                <h3 id="h3mmb">&#187; Utility Screwdriver</h3>
+                                <h3 id="h3mmb">...and a few secret items!</h3>
+                        </div>
+                    </div>
+
+                    <div class="column half">
+                        <div>
+                            <img src="images/HiRes.png" width="512" height="612" alt="Quality coding" />
                         </div>
                     </div>
                 </div>
             </div>
 
             <div id="action">
-                <div class="column-container">
-                    <div class="column three-fourths">
-                        <h1><span style="color:#d5e02c;">Tell Your
-                                Realtor</span>...<span
-                                style="color:#eefd00;">Tell Your Moving
-                                Company</span>...<br>
-                            <!--<span style="color:#eefd00;">Tell
-                                'em</span> ..-->
-                            &quot;it's my move! & I want MyMoveBuddy!&quot;</h1>
-                    </div><!-- end .column -->
-                    <div class="column fourth">
-                        <br>
-                        <a class="button button-arrow" href="#" onclick="openMail();">
-                            Sign Up Now!
-                            <span class="icon"></span>
-                        </a>
-                        <br><br>
-                    </div><!-- end .column -->
-                </div><!-- end .column-container -->
+                <div class="inner-wrap">
+                    <div class="column-container">
+                        <div class="column four-fifths">
+                            <span id="h1mmbred">Tell Your Realtor ...</span><br/>
+                            <span id="h1mmbyellow">Tell Your Moving Company...</span><br>
+                            <span id="h1mmbreg">&quot;It's my move! &amp; I want MyMoveBuddy!&quot;</span>
+                        </div>
+                        <div class="column fifth">
+                            <a class="button button-arrow" href="#" onclick="openMail();">Sign Up Now<span class="icon"></span></a>
+                            <small><b>MyMoveBuddy is Spam free.<br>
+                                    Never had it. Never will</b></small>
+                        </div>
+                    </div><!-- end .column-container -->
+                </div>
             </div>
         </div><!-- end #main -->
     </div><!-- end #wrap -->

@@ -48,13 +48,26 @@ table {
 }
 
 /* ----------------------------------
+---------       FONT       ----------
+---------------------------------- */
+
+@font-face {
+    font-family: suil;
+    src: url('segoeuil.ttf');
+}
+
+@font-face {
+    font-family: gab;
+    src: url('Gabriola.ttf');
+}
+/* ----------------------------------
 ---------     TYPOGRAPHY   ----------
 ---------------------------------- */
 
 body {
 	color: #c4c1b5;
 	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-        font-family: 'Segoe UI Light', 'Lucida Sans Italic', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        font-family: suil, 'Lucida Sans Italic', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	overflow-x: hidden;
@@ -66,7 +79,7 @@ body {
 h1 {
 	color: #e5e2d3;
 	/*font-family: Georgia, serif;*/
-        font-family: 'Segoe UI Light', 'Lucida Sans Italic', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        font-family: suil, 'Lucida Sans Italic', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	font-size: 28px;
 	font-weight: normal;
 	margin-bottom: 18px;
@@ -75,6 +88,41 @@ h1 {
         padding: 15px;
 }
 
+#h1mmbreg {
+	color: #e5e2d3;
+	/*font-family: Georgia, serif;*/
+        font-family: gab, 'Lucida Sans Italic', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 48px;
+	font-weight: normal;
+	margin-bottom: 18px;
+        text-align: center;
+	line-height: 36px;
+        padding: 15px;
+}
+
+#h1mmbred {
+	color: #b31c1c;
+	/*font-family: Georgia, serif;*/
+        font-family: gab, 'Lucida Sans Italic', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 48px;
+	font-weight: normal;
+	margin-bottom: 18px;
+        text-align: center;
+	line-height: 36px;
+        padding: 15px;
+}
+
+#h1mmbyellow {
+	color: #eefd00;
+	/*font-family: Georgia, serif;*/
+        font-family: gab, 'Lucida Sans Italic', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 48px;
+	font-weight: normal;
+	margin-bottom: 18px;
+        text-align: center;
+	line-height: 36px;
+        padding: 15px;
+}
 h2,
 h3,
 h4,
@@ -82,7 +130,7 @@ h5,
 h6 {
 	color: #e5e2d3;
 	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-        font-family: 'Segoe UI Light', 'Lucida Sans Italic', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        font-family: suil, 'Lucida Sans Italic', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	font-weight: bold;
 }
 
@@ -94,6 +142,13 @@ h2 {
 
 h3 {
 	font-size: 20px;
+	line-height: 36px;
+}
+
+#h3mmb {
+    	color: #e5e2d3;
+        font-family: suil, 'Lucida Sans Italic', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 18px;
 	line-height: 36px;
 }
 
@@ -380,7 +435,7 @@ blockquote {
 
 blockquote .author {
 	display: block;
-	font-family: 'Segoe UI Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: suil, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	font-style: normal;
 	font-weight: bold;
@@ -433,7 +488,7 @@ label small {
 
 form, input, textarea {
 	color: #c4c1b5;
-	font-family: 'Segoe UI Light', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-family: suil, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	font-size: 11px;
 }
 
@@ -1706,13 +1761,14 @@ W3C */
 	background-color: #37425e;
 	cursor: pointer;
 	display: inline-block;
-	height: 25px;
+	height: 32px;
 	width: auto;
 	min-width: 75px;
 	line-height: 25px;
 	padding: 0 17px 0 52px;
 	position: relative;
 	text-align: center;
+        font-size: 1.1em;
 	
 	background-image: -ms-linear-gradient(
     	top,
@@ -1861,8 +1917,8 @@ The :after pseudo-element will be then styled to have an icon background */
 	height: 12px;
 	width: 16px;
 	position: absolute;
-	top: 7px;
-	left: 9px;
+	top: 12px;
+	left: 8px;
 }
 
 /* These rules will add a background image containing icons to the container created above */
